@@ -8,7 +8,7 @@ f1.pack(fill="x")
 def hello():
     print("hello saumya pandey")
 
-b1 = Button(f1 , bg="pink" , text="hello" , fg="black" , borderwidth=10 , relief=SUNKEN , command=hello)   #🚀command="hello" nhi, only hello
+b1 = Button(f1 , bg="pink" , text="hello" , fg="black" , borderwidth=10 , relief=SUNKEN , command=hello)   #🚀command="hello" nhi, only hello, aur hello() bhi nhi since kewal function name likhna hai yhan ,fn. call nhi karna hai
 b1.pack( side="left" , padx=20 , pady=4)  
 
 def name():
